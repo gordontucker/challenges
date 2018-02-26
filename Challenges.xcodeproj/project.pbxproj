@@ -13,6 +13,8 @@
 		F8480E7020376FBF00B07E9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8480E6F20376FBF00B07E9E /* Assets.xcassets */; };
 		F8480E7320376FBF00B07E9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8480E7120376FBF00B07E9E /* LaunchScreen.storyboard */; };
 		F8480E7E20376FBF00B07E9E /* ChallengesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8480E7D20376FBF00B07E9E /* ChallengesTests.swift */; };
+		F89800022040BE1300EDA2F0 /* ColorPuzzleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89800012040BE1300EDA2F0 /* ColorPuzzleViewController.swift */; };
+		F89800042040BE2800EDA2F0 /* JaneChallenges.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89800032040BE2800EDA2F0 /* JaneChallenges.storyboard */; };
 		F89F704520377145009FD73D /* HackerRank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89F703C20377145009FD73D /* HackerRank.framework */; };
 		F89F704C20377145009FD73D /* HackerRankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89F704B20377145009FD73D /* HackerRankTests.swift */; };
 		F89F704E20377145009FD73D /* HackerRank.h in Headers */ = {isa = PBXBuildFile; fileRef = F89F703E20377145009FD73D /* HackerRank.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,6 +26,13 @@
 		F89F706520378668009FD73D /* Euler018Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89F706420378668009FD73D /* Euler018Test.swift */; };
 		F89F706720378943009FD73D /* Euler067.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89F706620378943009FD73D /* Euler067.swift */; };
 		F89F70692037896E009FD73D /* Euler067Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89F70682037896E009FD73D /* Euler067Test.swift */; };
+		F89F707820378B52009FD73D /* JaneChallenges.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89F706F20378B52009FD73D /* JaneChallenges.framework */; };
+		F89F707F20378B52009FD73D /* JaneChallengesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89F707E20378B52009FD73D /* JaneChallengesTests.swift */; };
+		F89F708120378B52009FD73D /* JaneChallenges.h in Headers */ = {isa = PBXBuildFile; fileRef = F89F707120378B52009FD73D /* JaneChallenges.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F89F708420378B52009FD73D /* JaneChallenges.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89F706F20378B52009FD73D /* JaneChallenges.framework */; };
+		F89F708520378B52009FD73D /* JaneChallenges.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F89F706F20378B52009FD73D /* JaneChallenges.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F89F708E20378B70009FD73D /* ColorPuzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89F708D20378B70009FD73D /* ColorPuzzle.swift */; };
+		F89F709020379325009FD73D /* ColorPuzzleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89F708F20379325009FD73D /* ColorPuzzleTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +64,27 @@
 			remoteGlobalIDString = F89F703B20377145009FD73D;
 			remoteInfo = HackerRank;
 		};
+		F89F707920378B52009FD73D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8480E5D20376FBF00B07E9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F89F706E20378B52009FD73D;
+			remoteInfo = JaneChallenges;
+		};
+		F89F707B20378B52009FD73D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8480E5D20376FBF00B07E9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8480E6420376FBF00B07E9E;
+			remoteInfo = Challenges;
+		};
+		F89F708220378B52009FD73D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8480E5D20376FBF00B07E9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F89F706E20378B52009FD73D;
+			remoteInfo = JaneChallenges;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,6 +94,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				F89F708520378B52009FD73D /* JaneChallenges.framework in Embed Frameworks */,
 				F89F705220377145009FD73D /* HackerRank.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -82,6 +113,8 @@
 		F8480E7920376FBF00B07E9E /* ChallengesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallengesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8480E7D20376FBF00B07E9E /* ChallengesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesTests.swift; sourceTree = "<group>"; };
 		F8480E7F20376FBF00B07E9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F89800012040BE1300EDA2F0 /* ColorPuzzleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPuzzleViewController.swift; sourceTree = "<group>"; };
+		F89800032040BE2800EDA2F0 /* JaneChallenges.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JaneChallenges.storyboard; sourceTree = "<group>"; };
 		F89F703C20377145009FD73D /* HackerRank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HackerRank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F89F703E20377145009FD73D /* HackerRank.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HackerRank.h; sourceTree = "<group>"; };
 		F89F703F20377145009FD73D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,6 +127,14 @@
 		F89F706420378668009FD73D /* Euler018Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Euler018Test.swift; sourceTree = "<group>"; };
 		F89F706620378943009FD73D /* Euler067.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Euler067.swift; sourceTree = "<group>"; };
 		F89F70682037896E009FD73D /* Euler067Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Euler067Test.swift; sourceTree = "<group>"; };
+		F89F706F20378B52009FD73D /* JaneChallenges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JaneChallenges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89F707120378B52009FD73D /* JaneChallenges.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JaneChallenges.h; sourceTree = "<group>"; };
+		F89F707220378B52009FD73D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F89F707720378B52009FD73D /* JaneChallengesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JaneChallengesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89F707E20378B52009FD73D /* JaneChallengesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JaneChallengesTests.swift; sourceTree = "<group>"; };
+		F89F708020378B52009FD73D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F89F708D20378B70009FD73D /* ColorPuzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPuzzle.swift; sourceTree = "<group>"; };
+		F89F708F20379325009FD73D /* ColorPuzzleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPuzzleTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F89F708420378B52009FD73D /* JaneChallenges.framework in Frameworks */,
 				F89F705120377145009FD73D /* HackerRank.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -127,6 +169,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F89F706B20378B52009FD73D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89F707420378B52009FD73D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89F707820378B52009FD73D /* JaneChallenges.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -137,6 +194,8 @@
 				F8480E7C20376FBF00B07E9E /* ChallengesTests */,
 				F89F703D20377145009FD73D /* HackerRank */,
 				F89F704A20377145009FD73D /* HackerRankTests */,
+				F89F707020378B52009FD73D /* JaneChallenges */,
+				F89F707D20378B52009FD73D /* JaneChallengesTests */,
 				F8480E6620376FBF00B07E9E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -148,6 +207,8 @@
 				F8480E7920376FBF00B07E9E /* ChallengesTests.xctest */,
 				F89F703C20377145009FD73D /* HackerRank.framework */,
 				F89F704420377145009FD73D /* HackerRankTests.xctest */,
+				F89F706F20378B52009FD73D /* JaneChallenges.framework */,
+				F89F707720378B52009FD73D /* JaneChallengesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,9 +216,7 @@
 		F8480E6720376FBF00B07E9E /* Challenges */ = {
 			isa = PBXGroup;
 			children = (
-				F89F70352037708A009FD73D /* Helpers */,
-				F89F703420377032009FD73D /* Jane */,
-				F89F703220377021009FD73D /* HackerRank */,
+				F89800002040BE0200EDA2F0 /* JaneChallenges */,
 				F8480E6820376FBF00B07E9E /* AppDelegate.swift */,
 				F8480E6A20376FBF00B07E9E /* ViewController.swift */,
 				F8480E6C20376FBF00B07E9E /* Main.storyboard */,
@@ -177,33 +236,21 @@
 			path = ChallengesTests;
 			sourceTree = "<group>";
 		};
-		F89F703220377021009FD73D /* HackerRank */ = {
+		F89800002040BE0200EDA2F0 /* JaneChallenges */ = {
 			isa = PBXGroup;
 			children = (
+				F89800012040BE1300EDA2F0 /* ColorPuzzleViewController.swift */,
+				F89800032040BE2800EDA2F0 /* JaneChallenges.storyboard */,
 			);
-			path = HackerRank;
+			path = JaneChallenges;
 			sourceTree = "<group>";
 		};
-		F89F703420377032009FD73D /* Jane */ = {
+		F898FFFF20409BD400EDA2F0 /* 2018-02 */ = {
 			isa = PBXGroup;
 			children = (
+				F89F708F20379325009FD73D /* ColorPuzzleTest.swift */,
 			);
-			path = Jane;
-			sourceTree = "<group>";
-		};
-		F89F70352037708A009FD73D /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				F89F703620377119009FD73D /* Euler */,
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		F89F703620377119009FD73D /* Euler */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Euler;
+			path = "2018-02";
 			sourceTree = "<group>";
 		};
 		F89F703D20377145009FD73D /* HackerRank */ = {
@@ -246,6 +293,34 @@
 			path = Euler;
 			sourceTree = "<group>";
 		};
+		F89F707020378B52009FD73D /* JaneChallenges */ = {
+			isa = PBXGroup;
+			children = (
+				F89F708C20378B58009FD73D /* 2018-02 */,
+				F89F707120378B52009FD73D /* JaneChallenges.h */,
+				F89F707220378B52009FD73D /* Info.plist */,
+			);
+			path = JaneChallenges;
+			sourceTree = "<group>";
+		};
+		F89F707D20378B52009FD73D /* JaneChallengesTests */ = {
+			isa = PBXGroup;
+			children = (
+				F898FFFF20409BD400EDA2F0 /* 2018-02 */,
+				F89F707E20378B52009FD73D /* JaneChallengesTests.swift */,
+				F89F708020378B52009FD73D /* Info.plist */,
+			);
+			path = JaneChallengesTests;
+			sourceTree = "<group>";
+		};
+		F89F708C20378B58009FD73D /* 2018-02 */ = {
+			isa = PBXGroup;
+			children = (
+				F89F708D20378B70009FD73D /* ColorPuzzle.swift */,
+			);
+			path = "2018-02";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -254,6 +329,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F89F704E20377145009FD73D /* HackerRank.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89F706C20378B52009FD73D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89F708120378B52009FD73D /* JaneChallenges.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +356,7 @@
 			);
 			dependencies = (
 				F89F705020377145009FD73D /* PBXTargetDependency */,
+				F89F708320378B52009FD73D /* PBXTargetDependency */,
 			);
 			name = Challenges;
 			productName = Challenges;
@@ -334,6 +418,43 @@
 			productReference = F89F704420377145009FD73D /* HackerRankTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F89F706E20378B52009FD73D /* JaneChallenges */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F89F708620378B52009FD73D /* Build configuration list for PBXNativeTarget "JaneChallenges" */;
+			buildPhases = (
+				F89F706A20378B52009FD73D /* Sources */,
+				F89F706B20378B52009FD73D /* Frameworks */,
+				F89F706C20378B52009FD73D /* Headers */,
+				F89F706D20378B52009FD73D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JaneChallenges;
+			productName = JaneChallenges;
+			productReference = F89F706F20378B52009FD73D /* JaneChallenges.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F89F707620378B52009FD73D /* JaneChallengesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F89F708920378B52009FD73D /* Build configuration list for PBXNativeTarget "JaneChallengesTests" */;
+			buildPhases = (
+				F89F707320378B52009FD73D /* Sources */,
+				F89F707420378B52009FD73D /* Frameworks */,
+				F89F707520378B52009FD73D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F89F707A20378B52009FD73D /* PBXTargetDependency */,
+				F89F707C20378B52009FD73D /* PBXTargetDependency */,
+			);
+			name = JaneChallengesTests;
+			productName = JaneChallengesTests;
+			productReference = F89F707720378B52009FD73D /* JaneChallengesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -363,6 +484,16 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = F8480E6420376FBF00B07E9E;
 					};
+					F89F706E20378B52009FD73D = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					F89F707620378B52009FD73D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F8480E6420376FBF00B07E9E;
+					};
 				};
 			};
 			buildConfigurationList = F8480E6020376FBF00B07E9E /* Build configuration list for PBXProject "Challenges" */;
@@ -382,6 +513,8 @@
 				F8480E7820376FBF00B07E9E /* ChallengesTests */,
 				F89F703B20377145009FD73D /* HackerRank */,
 				F89F704320377145009FD73D /* HackerRankTests */,
+				F89F706E20378B52009FD73D /* JaneChallenges */,
+				F89F707620378B52009FD73D /* JaneChallengesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -391,6 +524,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F89800042040BE2800EDA2F0 /* JaneChallenges.storyboard in Resources */,
 				F8480E7320376FBF00B07E9E /* LaunchScreen.storyboard in Resources */,
 				F8480E7020376FBF00B07E9E /* Assets.xcassets in Resources */,
 				F8480E6E20376FBF00B07E9E /* Main.storyboard in Resources */,
@@ -418,6 +552,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F89F706D20378B52009FD73D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89F707520378B52009FD73D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -426,6 +574,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8480E6B20376FBF00B07E9E /* ViewController.swift in Sources */,
+				F89800022040BE1300EDA2F0 /* ColorPuzzleViewController.swift in Sources */,
 				F8480E6920376FBF00B07E9E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,6 +608,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F89F706A20378B52009FD73D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89F708E20378B70009FD73D /* ColorPuzzle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89F707320378B52009FD73D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89F707F20378B52009FD73D /* JaneChallengesTests.swift in Sources */,
+				F89F709020379325009FD73D /* ColorPuzzleTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -481,6 +647,21 @@
 			isa = PBXTargetDependency;
 			target = F89F703B20377145009FD73D /* HackerRank */;
 			targetProxy = F89F704F20377145009FD73D /* PBXContainerItemProxy */;
+		};
+		F89F707A20378B52009FD73D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F89F706E20378B52009FD73D /* JaneChallenges */;
+			targetProxy = F89F707920378B52009FD73D /* PBXContainerItemProxy */;
+		};
+		F89F707C20378B52009FD73D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8480E6420376FBF00B07E9E /* Challenges */;
+			targetProxy = F89F707B20378B52009FD73D /* PBXContainerItemProxy */;
+		};
+		F89F708320378B52009FD73D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F89F706E20378B52009FD73D /* JaneChallenges */;
+			targetProxy = F89F708220378B52009FD73D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -760,6 +941,89 @@
 			};
 			name = Release;
 		};
+		F89F708720378B52009FD73D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 478Z685Y37;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JaneChallenges/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gordontucker.challenges.JaneChallenges;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F89F708820378B52009FD73D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 478Z685Y37;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JaneChallenges/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gordontucker.challenges.JaneChallenges;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F89F708A20378B52009FD73D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 478Z685Y37;
+				INFOPLIST_FILE = JaneChallengesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gordontucker.challenges.JaneChallengesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Challenges.app/Challenges";
+			};
+			name = Debug;
+		};
+		F89F708B20378B52009FD73D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 478Z685Y37;
+				INFOPLIST_FILE = JaneChallengesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gordontucker.challenges.JaneChallengesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Challenges.app/Challenges";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -804,6 +1068,24 @@
 			buildConfigurations = (
 				F89F705820377145009FD73D /* Debug */,
 				F89F705920377145009FD73D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F89F708620378B52009FD73D /* Build configuration list for PBXNativeTarget "JaneChallenges" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89F708720378B52009FD73D /* Debug */,
+				F89F708820378B52009FD73D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F89F708920378B52009FD73D /* Build configuration list for PBXNativeTarget "JaneChallengesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89F708A20378B52009FD73D /* Debug */,
+				F89F708B20378B52009FD73D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

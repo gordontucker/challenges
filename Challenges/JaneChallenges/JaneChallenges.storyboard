@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Color Puzzle View Controller-->
+        <scene sceneID="NcE-B9-6TW">
+            <objects>
+                <viewController storyboardIdentifier="color-puzzle" id="Xox-GJ-Lqh" customClass="ColorPuzzleViewController" customModule="Challenges" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1cD-az-fku">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7eI-n9-4Og">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="oqN-KD-VrG">
+                                <rect key="frame" x="0.0" y="20" width="375" height="375"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="375" placeholder="YES" id="SCg-dz-90l"/>
+                                    <constraint firstAttribute="width" constant="375" placeholder="YES" id="YsO-eO-Elc"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="oqN-KD-VrG" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ZcI-Lh-BZ0" secondAttribute="leading" id="5wN-JU-wnE"/>
+                            <constraint firstItem="oqN-KD-VrG" firstAttribute="top" secondItem="ZcI-Lh-BZ0" secondAttribute="top" id="Eqh-zU-7ZA"/>
+                            <constraint firstItem="oqN-KD-VrG" firstAttribute="centerX" secondItem="ZcI-Lh-BZ0" secondAttribute="centerX" id="KDw-xl-d6b"/>
+                            <constraint firstItem="7eI-n9-4Og" firstAttribute="leading" secondItem="ZcI-Lh-BZ0" secondAttribute="leading" id="X9e-Tx-Cvo"/>
+                            <constraint firstItem="ZcI-Lh-BZ0" firstAttribute="bottom" secondItem="7eI-n9-4Og" secondAttribute="bottom" id="a5V-Bc-Iwf"/>
+                            <constraint firstItem="ZcI-Lh-BZ0" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="oqN-KD-VrG" secondAttribute="trailing" id="aPk-RY-WBD"/>
+                            <constraint firstItem="7eI-n9-4Og" firstAttribute="top" secondItem="1cD-az-fku" secondAttribute="top" id="d2s-jm-qh1"/>
+                            <constraint firstItem="7eI-n9-4Og" firstAttribute="trailing" secondItem="ZcI-Lh-BZ0" secondAttribute="trailing" id="hqO-1m-dbt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZcI-Lh-BZ0"/>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundColorView" destination="7eI-n9-4Og" id="3gU-ZJ-SIO"/>
+                        <outlet property="verticalStackView" destination="oqN-KD-VrG" id="73t-Cd-Tky"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Duh-GM-8vz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-28" y="107.49625187406298"/>
+        </scene>
+    </scenes>
+</document>
