@@ -8,22 +8,6 @@
 
 import UIKit
 
-protocol Writer {
-    func writeLine(_ line: String)
-}
-
-extension Writer {
-    func writeLine(_ int: Int) {
-        self.writeLine("\(int)")
-    }
-}
-
-class ConsoleWriter: Writer {
-    func writeLine(_ line: String) {
-        print(line)
-    }
-}
-
 class ArrayWriter: Writer {
     var lines: [String] = []
     func writeLine(_ line: String) {
