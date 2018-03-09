@@ -38,6 +38,8 @@
 		F89F708520378B52009FD73D /* JaneChallenges.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F89F706F20378B52009FD73D /* JaneChallenges.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F89F708E20378B70009FD73D /* ColorPuzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89F708D20378B70009FD73D /* ColorPuzzle.swift */; };
 		F89F709020379325009FD73D /* ColorPuzzleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89F708F20379325009FD73D /* ColorPuzzleTest.swift */; };
+		F8BEE5BF2053360D00E9DEBD /* PancakeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BEE5BE2053360D00E9DEBD /* PancakeSort.swift */; };
+		F8BEE5C22053362600E9DEBD /* PancakeSortTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BEE5C12053362600E9DEBD /* PancakeSortTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,6 +147,8 @@
 		F89F708020378B52009FD73D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F89F708D20378B70009FD73D /* ColorPuzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPuzzle.swift; sourceTree = "<group>"; };
 		F89F708F20379325009FD73D /* ColorPuzzleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPuzzleTest.swift; sourceTree = "<group>"; };
+		F8BEE5BE2053360D00E9DEBD /* PancakeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PancakeSort.swift; sourceTree = "<group>"; };
+		F8BEE5C12053362600E9DEBD /* PancakeSortTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PancakeSortTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -328,6 +332,7 @@
 			isa = PBXGroup;
 			children = (
 				F89F708C20378B58009FD73D /* 2018-02 */,
+				F8BEE5C02053361100E9DEBD /* 2018-03 */,
 				F89F707120378B52009FD73D /* JaneChallenges.h */,
 				F89F707220378B52009FD73D /* Info.plist */,
 			);
@@ -338,6 +343,7 @@
 			isa = PBXGroup;
 			children = (
 				F898FFFF20409BD400EDA2F0 /* 2018-02 */,
+				F8BEE5BD205335F800E9DEBD /* 2018-03 */,
 				F89F707E20378B52009FD73D /* JaneChallengesTests.swift */,
 				F89F708020378B52009FD73D /* Info.plist */,
 			);
@@ -350,6 +356,22 @@
 				F89F708D20378B70009FD73D /* ColorPuzzle.swift */,
 			);
 			path = "2018-02";
+			sourceTree = "<group>";
+		};
+		F8BEE5BD205335F800E9DEBD /* 2018-03 */ = {
+			isa = PBXGroup;
+			children = (
+				F8BEE5C12053362600E9DEBD /* PancakeSortTest.swift */,
+			);
+			path = "2018-03";
+			sourceTree = "<group>";
+		};
+		F8BEE5C02053361100E9DEBD /* 2018-03 */ = {
+			isa = PBXGroup;
+			children = (
+				F8BEE5BE2053360D00E9DEBD /* PancakeSort.swift */,
+			);
+			path = "2018-03";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -657,7 +679,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F89F707F20378B52009FD73D /* JaneChallengesTests.swift in Sources */,
+				F8BEE5BF2053360D00E9DEBD /* PancakeSort.swift in Sources */,
 				F89F709020379325009FD73D /* ColorPuzzleTest.swift in Sources */,
+				F8BEE5C22053362600E9DEBD /* PancakeSortTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
