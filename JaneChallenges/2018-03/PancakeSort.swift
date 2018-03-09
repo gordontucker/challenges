@@ -57,13 +57,13 @@ class PancakeSort: NSObject {
             var largestIndex = currentIndex
             // Find the largest to swap with
             for compareIndex in currentIndex + 1 ..< sorted.count {
-                if sorted[largestIndex] < sorted[compareIndex] {
+                if abs(sorted[largestIndex]) < abs(sorted[compareIndex]) {
                     // We need to flip the pancakes at this point, we found a bigger one
                     largestIndex = compareIndex
                 }
             }
             
-            guard largestIndex != currentIndex else {
+            guard largestIndex != currentIndex || (sorted[currentIndex] < 0) else {
                 currentIndex += 1
                 continue
             }
@@ -72,7 +72,13 @@ class PancakeSort: NSObject {
                 // Flip the larger pancake to the top
                 let a = Array(sorted[0..<largestIndex])
                 let b = Array(sorted[largestIndex...])
-                sorted = a + b.reversed()
+                sorted = a + b.reversed().map({ $0 * -1 })
+                flips += 1
+                print("flips: \(flips), sorted: \(sorted)")
+            }
+            
+            if sorted[sorted.count - 1] > 0 {
+                sorted[sorted.count - 1] *= -1
                 flips += 1
                 print("flips: \(flips), sorted: \(sorted)")
             }
@@ -80,10 +86,16 @@ class PancakeSort: NSObject {
             // Flip stack down to current index
             let a = Array(sorted[0..<currentIndex])
             let b = Array(sorted[currentIndex...])
-            sorted = a + b.reversed()
+            sorted = a + b.reversed().map({ $0 * -1 })
             flips += 1
             print("flips: \(flips), sorted: \(sorted)")
             currentIndex += 1
+        }
+        
+        if sorted[sorted.count - 1] < 0 {
+            sorted[sorted.count - 1] *= -1
+            flips += 1
+            print("flips: \(flips), sorted: \(sorted)")
         }
         
         return (steps: flips + 1, sorted: sorted.reversed())
