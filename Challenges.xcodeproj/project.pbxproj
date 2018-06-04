@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F830002A20C0994000D83AC5 /* HomeRowSpellCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = F830002920C0994000D83AC5 /* HomeRowSpellCheck.swift */; };
+		F830002C20C0998600D83AC5 /* enable1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F830002B20C0998600D83AC5 /* enable1.txt */; };
+		F830003120C5D98400D83AC5 /* RedSquiggly.swift in Sources */ = {isa = PBXBuildFile; fileRef = F830003020C5D98400D83AC5 /* RedSquiggly.swift */; };
+		F830003320C5D9AB00D83AC5 /* enable1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F830003220C5D9AA00D83AC5 /* enable1.txt */; };
+		F830003620C5DA8C00D83AC5 /* RedSquigglyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F830003520C5DA8C00D83AC5 /* RedSquigglyTest.swift */; };
+		F830003820C5E5B800D83AC5 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F830003720C5E5B800D83AC5 /* Dictionary.swift */; };
 		F8382E832049D3C900C2833B /* TwoDArrayDSTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8382E822049D3C900C2833B /* TwoDArrayDSTest.swift */; };
 		F8382E862049F1CF00C2833B /* TwoD-array.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8382E852049F1CF00C2833B /* TwoD-array.swift */; };
 		F8382E882049F47B00C2833B /* SharedCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8382E872049F47B00C2833B /* SharedCode.swift */; };
@@ -110,6 +116,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F830002920C0994000D83AC5 /* HomeRowSpellCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRowSpellCheck.swift; sourceTree = "<group>"; };
+		F830002B20C0998600D83AC5 /* enable1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = enable1.txt; sourceTree = "<group>"; };
+		F830003020C5D98400D83AC5 /* RedSquiggly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedSquiggly.swift; sourceTree = "<group>"; };
+		F830003220C5D9AA00D83AC5 /* enable1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = enable1.txt; path = Challenges/enable1.txt; sourceTree = SOURCE_ROOT; };
+		F830003520C5DA8C00D83AC5 /* RedSquigglyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedSquigglyTest.swift; sourceTree = "<group>"; };
+		F830003720C5E5B800D83AC5 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
 		F8382E822049D3C900C2833B /* TwoDArrayDSTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoDArrayDSTest.swift; sourceTree = "<group>"; };
 		F8382E852049F1CF00C2833B /* TwoD-array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TwoD-array.swift"; sourceTree = "<group>"; };
 		F8382E872049F47B00C2833B /* SharedCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedCode.swift; sourceTree = "<group>"; };
@@ -201,6 +213,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F830002F20C5D97600D83AC5 /* 2018-05 */ = {
+			isa = PBXGroup;
+			children = (
+				F830003020C5D98400D83AC5 /* RedSquiggly.swift */,
+			);
+			path = "2018-05";
+			sourceTree = "<group>";
+		};
+		F830003420C5DA7B00D83AC5 /* 2018-05 */ = {
+			isa = PBXGroup;
+			children = (
+				F830003520C5DA8C00D83AC5 /* RedSquigglyTest.swift */,
+			);
+			path = "2018-05";
+			sourceTree = "<group>";
+		};
 		F8382E812049D39A00C2833B /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
@@ -253,6 +281,7 @@
 				F8480E6F20376FBF00B07E9E /* Assets.xcassets */,
 				F8480E7120376FBF00B07E9E /* LaunchScreen.storyboard */,
 				F8480E7420376FBF00B07E9E /* Info.plist */,
+				F830002B20C0998600D83AC5 /* enable1.txt */,
 			);
 			path = Challenges;
 			sourceTree = "<group>";
@@ -273,6 +302,7 @@
 				F89800032040BE2800EDA2F0 /* JaneChallenges.storyboard */,
 				F8382E892049F88900C2833B /* ChuckNorris.storyboard */,
 				F8382E8B2049F89600C2833B /* ChuckNorrisViewController.swift */,
+				F830002920C0994000D83AC5 /* HomeRowSpellCheck.swift */,
 			);
 			path = JaneChallenges;
 			sourceTree = "<group>";
@@ -331,10 +361,13 @@
 		F89F707020378B52009FD73D /* JaneChallenges */ = {
 			isa = PBXGroup;
 			children = (
+				F830002F20C5D97600D83AC5 /* 2018-05 */,
 				F89F708C20378B58009FD73D /* 2018-02 */,
 				F8BEE5C02053361100E9DEBD /* 2018-03 */,
 				F89F707120378B52009FD73D /* JaneChallenges.h */,
+				F830003220C5D9AA00D83AC5 /* enable1.txt */,
 				F89F707220378B52009FD73D /* Info.plist */,
+				F830003720C5E5B800D83AC5 /* Dictionary.swift */,
 			);
 			path = JaneChallenges;
 			sourceTree = "<group>";
@@ -342,6 +375,7 @@
 		F89F707D20378B52009FD73D /* JaneChallengesTests */ = {
 			isa = PBXGroup;
 			children = (
+				F830003420C5DA7B00D83AC5 /* 2018-05 */,
 				F898FFFF20409BD400EDA2F0 /* 2018-02 */,
 				F8BEE5BD205335F800E9DEBD /* 2018-03 */,
 				F89F707E20378B52009FD73D /* JaneChallengesTests.swift */,
@@ -580,6 +614,7 @@
 				F89800042040BE2800EDA2F0 /* JaneChallenges.storyboard in Resources */,
 				F8480E7320376FBF00B07E9E /* LaunchScreen.storyboard in Resources */,
 				F8480E7020376FBF00B07E9E /* Assets.xcassets in Resources */,
+				F830002C20C0998600D83AC5 /* enable1.txt in Resources */,
 				F8382E8A2049F88900C2833B /* ChuckNorris.storyboard in Resources */,
 				F8480E6E20376FBF00B07E9E /* Main.storyboard in Resources */,
 			);
@@ -610,6 +645,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F830003320C5D9AB00D83AC5 /* enable1.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,6 +664,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8382E8C2049F89600C2833B /* ChuckNorrisViewController.swift in Sources */,
+				F830002A20C0994000D83AC5 /* HomeRowSpellCheck.swift in Sources */,
 				F8480E6B20376FBF00B07E9E /* ViewController.swift in Sources */,
 				F89800022040BE1300EDA2F0 /* ColorPuzzleViewController.swift in Sources */,
 				F8480E6920376FBF00B07E9E /* AppDelegate.swift in Sources */,
@@ -670,7 +707,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F830003120C5D98400D83AC5 /* RedSquiggly.swift in Sources */,
 				F89F708E20378B70009FD73D /* ColorPuzzle.swift in Sources */,
+				F830003820C5E5B800D83AC5 /* Dictionary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -680,6 +719,7 @@
 			files = (
 				F89F707F20378B52009FD73D /* JaneChallengesTests.swift in Sources */,
 				F8BEE5BF2053360D00E9DEBD /* PancakeSort.swift in Sources */,
+				F830003620C5DA8C00D83AC5 /* RedSquigglyTest.swift in Sources */,
 				F89F709020379325009FD73D /* ColorPuzzleTest.swift in Sources */,
 				F8BEE5C22053362600E9DEBD /* PancakeSortTest.swift in Sources */,
 			);

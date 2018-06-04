@@ -23,7 +23,12 @@ class ChallengesTests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+
+        XCTAssertEqual("All, the things!", HomeRowSpellCheck.spellCheck(input: "All, the things!"))
+        XCTAssertEqual("All, the things!", HomeRowSpellCheck.spellCheck(input: "Lkk, yjr yjomhd!"))
+        XCTAssertEqual("All, the things!", HomeRowSpellCheck.spellCheck(input: "Kjj, efq things!"))
+        XCTAssertEqual("All, the things!", HomeRowSpellCheck.spellCheck(input: "All, yjr things!"))
+        XCTAssertEqual("All, the things!", HomeRowSpellCheck.spellCheck(input: "All, the ukpzjf!"))
     }
     
     func testPerformanceExample() {
