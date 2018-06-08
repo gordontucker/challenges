@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OQp-1R-aey">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="kgl-DL-oN4">
+            <objects>
+                <viewController id="OQp-1R-aey" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TQZ-UF-LCP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WpG-9F-SMK" customClass="BubbleView" customModule="Challenges" customModuleProvider="target">
+                                <rect key="frame" x="16" y="84" width="568" height="160"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="eYY-BC-JhZ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.027799479166666648" green="0.04369574652777776" blue="0.16671549479166664" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="WpG-9F-SMK" firstAttribute="leading" secondItem="pyd-zq-22X" secondAttribute="leading" constant="16" id="NpD-iv-3Cj"/>
+                            <constraint firstItem="pyd-zq-22X" firstAttribute="trailing" secondItem="WpG-9F-SMK" secondAttribute="trailing" constant="16" id="pcP-vp-TiN"/>
+                            <constraint firstItem="WpG-9F-SMK" firstAttribute="top" secondItem="pyd-zq-22X" secondAttribute="top" constant="64" id="vUJ-Yf-iNO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pyd-zq-22X"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="667"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5YJ-CS-BtQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="147" y="154.5"/>
+        </scene>
+    </scenes>
+</document>
