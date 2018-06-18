@@ -24,6 +24,8 @@
 		F8382E882049F47B00C2833B /* SharedCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8382E872049F47B00C2833B /* SharedCode.swift */; };
 		F8382E8A2049F88900C2833B /* ChuckNorris.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8382E892049F88900C2833B /* ChuckNorris.storyboard */; };
 		F8382E8C2049F89600C2833B /* ChuckNorrisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8382E8B2049F89600C2833B /* ChuckNorrisViewController.swift */; };
+		F846E4E220D4612900C361D1 /* AddingCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F846E4E120D4612900C361D1 /* AddingCalculator.swift */; };
+		F846E4E420D4613700C361D1 /* AddingCalculatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F846E4E320D4613700C361D1 /* AddingCalculatorTest.swift */; };
 		F8480E6920376FBF00B07E9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8480E6820376FBF00B07E9E /* AppDelegate.swift */; };
 		F8480E6B20376FBF00B07E9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8480E6A20376FBF00B07E9E /* ViewController.swift */; };
 		F8480E6E20376FBF00B07E9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8480E6C20376FBF00B07E9E /* Main.storyboard */; };
@@ -141,6 +143,8 @@
 		F8382E872049F47B00C2833B /* SharedCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedCode.swift; sourceTree = "<group>"; };
 		F8382E892049F88900C2833B /* ChuckNorris.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChuckNorris.storyboard; sourceTree = "<group>"; };
 		F8382E8B2049F89600C2833B /* ChuckNorrisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuckNorrisViewController.swift; sourceTree = "<group>"; };
+		F846E4E120D4612900C361D1 /* AddingCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingCalculator.swift; sourceTree = "<group>"; };
+		F846E4E320D4613700C361D1 /* AddingCalculatorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingCalculatorTest.swift; sourceTree = "<group>"; };
 		F8480E6520376FBF00B07E9E /* Challenges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Challenges.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8480E6820376FBF00B07E9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8480E6A20376FBF00B07E9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -289,6 +293,22 @@
 			path = DataStructures;
 			sourceTree = "<group>";
 		};
+		F846E4DD20D4610400C361D1 /* 2018-06 */ = {
+			isa = PBXGroup;
+			children = (
+				F846E4E320D4613700C361D1 /* AddingCalculatorTest.swift */,
+			);
+			path = "2018-06";
+			sourceTree = "<group>";
+		};
+		F846E4E020D4611C00C361D1 /* 2018-06 */ = {
+			isa = PBXGroup;
+			children = (
+				F846E4E120D4612900C361D1 /* AddingCalculator.swift */,
+			);
+			path = "2018-06";
+			sourceTree = "<group>";
+		};
 		F8480E5C20376FBF00B07E9E = {
 			isa = PBXGroup;
 			children = (
@@ -410,6 +430,7 @@
 		F89F707020378B52009FD73D /* JaneChallenges */ = {
 			isa = PBXGroup;
 			children = (
+				F846E4E020D4611C00C361D1 /* 2018-06 */,
 				F830002F20C5D97600D83AC5 /* 2018-05 */,
 				F89F708C20378B58009FD73D /* 2018-02 */,
 				F8BEE5C02053361100E9DEBD /* 2018-03 */,
@@ -424,6 +445,7 @@
 		F89F707D20378B52009FD73D /* JaneChallengesTests */ = {
 			isa = PBXGroup;
 			children = (
+				F846E4DD20D4610400C361D1 /* 2018-06 */,
 				F830003420C5DA7B00D83AC5 /* 2018-05 */,
 				F898FFFF20409BD400EDA2F0 /* 2018-02 */,
 				F8BEE5BD205335F800E9DEBD /* 2018-03 */,
@@ -817,6 +839,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F846E4E220D4612900C361D1 /* AddingCalculator.swift in Sources */,
 				F830003A20C6E35F00D83AC5 /* TallyGolf.swift in Sources */,
 				F830003120C5D98400D83AC5 /* RedSquiggly.swift in Sources */,
 				F89F708E20378B70009FD73D /* ColorPuzzle.swift in Sources */,
@@ -828,6 +851,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F846E4E420D4613700C361D1 /* AddingCalculatorTest.swift in Sources */,
 				F89F707F20378B52009FD73D /* JaneChallengesTests.swift in Sources */,
 				F8BEE5BF2053360D00E9DEBD /* PancakeSort.swift in Sources */,
 				F830003620C5DA8C00D83AC5 /* RedSquigglyTest.swift in Sources */,
