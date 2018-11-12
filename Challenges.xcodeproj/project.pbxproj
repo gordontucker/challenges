@@ -32,6 +32,8 @@
 		F8480E7020376FBF00B07E9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8480E6F20376FBF00B07E9E /* Assets.xcassets */; };
 		F8480E7320376FBF00B07E9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8480E7120376FBF00B07E9E /* LaunchScreen.storyboard */; };
 		F8480E7E20376FBF00B07E9E /* ChallengesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8480E7D20376FBF00B07E9E /* ChallengesTests.swift */; };
+		F8711D7A21963DBC00DA6F69 /* WordFunnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8711D7921963DBC00DA6F69 /* WordFunnel.swift */; };
+		F8711D7D21963DCF00DA6F69 /* WordFunnelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8711D7C21963DCF00DA6F69 /* WordFunnelTest.swift */; };
 		F89800022040BE1300EDA2F0 /* ColorPuzzleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89800012040BE1300EDA2F0 /* ColorPuzzleViewController.swift */; };
 		F89800042040BE2800EDA2F0 /* JaneChallenges.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89800032040BE2800EDA2F0 /* JaneChallenges.storyboard */; };
 		F89F704520377145009FD73D /* HackerRank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89F703C20377145009FD73D /* HackerRank.framework */; };
@@ -155,6 +157,8 @@
 		F8480E7920376FBF00B07E9E /* ChallengesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallengesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8480E7D20376FBF00B07E9E /* ChallengesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesTests.swift; sourceTree = "<group>"; };
 		F8480E7F20376FBF00B07E9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8711D7921963DBC00DA6F69 /* WordFunnel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordFunnel.swift; sourceTree = "<group>"; };
+		F8711D7C21963DCF00DA6F69 /* WordFunnelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordFunnelTest.swift; sourceTree = "<group>"; };
 		F89800012040BE1300EDA2F0 /* ColorPuzzleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPuzzleViewController.swift; sourceTree = "<group>"; };
 		F89800032040BE2800EDA2F0 /* JaneChallenges.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JaneChallenges.storyboard; sourceTree = "<group>"; };
 		F89F703C20377145009FD73D /* HackerRank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HackerRank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -362,6 +366,22 @@
 			path = ChallengesTests;
 			sourceTree = "<group>";
 		};
+		F8711D7821963DAD00DA6F69 /* 2018-11 */ = {
+			isa = PBXGroup;
+			children = (
+				F8711D7921963DBC00DA6F69 /* WordFunnel.swift */,
+			);
+			path = "2018-11";
+			sourceTree = "<group>";
+		};
+		F8711D7B21963DC100DA6F69 /* 2018-11 */ = {
+			isa = PBXGroup;
+			children = (
+				F8711D7C21963DCF00DA6F69 /* WordFunnelTest.swift */,
+			);
+			path = "2018-11";
+			sourceTree = "<group>";
+		};
 		F89800002040BE0200EDA2F0 /* JaneChallenges */ = {
 			isa = PBXGroup;
 			children = (
@@ -430,6 +450,7 @@
 		F89F707020378B52009FD73D /* JaneChallenges */ = {
 			isa = PBXGroup;
 			children = (
+				F8711D7821963DAD00DA6F69 /* 2018-11 */,
 				F846E4E020D4611C00C361D1 /* 2018-06 */,
 				F830002F20C5D97600D83AC5 /* 2018-05 */,
 				F89F708C20378B58009FD73D /* 2018-02 */,
@@ -445,6 +466,7 @@
 		F89F707D20378B52009FD73D /* JaneChallengesTests */ = {
 			isa = PBXGroup;
 			children = (
+				F8711D7B21963DC100DA6F69 /* 2018-11 */,
 				F846E4DD20D4610400C361D1 /* 2018-06 */,
 				F830003420C5DA7B00D83AC5 /* 2018-05 */,
 				F898FFFF20409BD400EDA2F0 /* 2018-02 */,
@@ -844,6 +866,7 @@
 				F830003120C5D98400D83AC5 /* RedSquiggly.swift in Sources */,
 				F89F708E20378B70009FD73D /* ColorPuzzle.swift in Sources */,
 				F830003820C5E5B800D83AC5 /* Dictionary.swift in Sources */,
+				F8711D7A21963DBC00DA6F69 /* WordFunnel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -856,6 +879,7 @@
 				F8BEE5BF2053360D00E9DEBD /* PancakeSort.swift in Sources */,
 				F830003620C5DA8C00D83AC5 /* RedSquigglyTest.swift in Sources */,
 				F89F709020379325009FD73D /* ColorPuzzleTest.swift in Sources */,
+				F8711D7D21963DCF00DA6F69 /* WordFunnelTest.swift in Sources */,
 				F8BEE5C22053362600E9DEBD /* PancakeSortTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1035,7 +1059,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YU9U6J5U3K;
+				DEVELOPMENT_TEAM = 478Z685Y37;
 				INFOPLIST_FILE = Challenges/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jane.challenges.Challenges;
@@ -1054,7 +1078,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YU9U6J5U3K;
+				DEVELOPMENT_TEAM = 478Z685Y37;
 				INFOPLIST_FILE = Challenges/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jane.challenges.Challenges;
